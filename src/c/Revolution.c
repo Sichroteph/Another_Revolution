@@ -501,17 +501,19 @@ void init() {
     time_slot->slot.number  = i;
     time_slot->slot.state   = EMPTY_SLOT;
     time_slot->new_state    = EMPTY_SLOT;
+
     time_slot->updating     = false;
   }
 
-  time_layer = layer_create(GRect(0, 0, SCREEN_WIDTH, SCREEN_WIDTH));
+
+  time_layer = layer_create(GRect(0, 26, SCREEN_WIDTH, SCREEN_WIDTH));
   layer_set_clips(time_layer, true);
   layer_add_child(root_layer, time_layer);
 
   // Footer
   int footer_height = SCREEN_HEIGHT - SCREEN_WIDTH;
 
-  footer_layer = layer_create(GRect(0, SCREEN_WIDTH, SCREEN_WIDTH, footer_height));
+  footer_layer = layer_create(GRect(0, -100, SCREEN_WIDTH, footer_height));
   layer_add_child(root_layer, footer_layer);
 
   // Day
