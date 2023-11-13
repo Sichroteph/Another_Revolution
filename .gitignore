@@ -57,7 +57,6 @@ build/aplite/src/resource_ids.auto.c
 build/aplite/src/resource_ids.auto.c.25.o
 build/aplite/src/resource_ids.auto.h
 build/aplite/system_resources.resball
-build/appinfo.json
 build/basalt/app_resources.pbpack
 build/basalt/appinfo.auto.c
 build/basalt/appinfo.auto.c.24.o
