@@ -513,7 +513,7 @@ void init() {
   // Footer
   int footer_height = SCREEN_HEIGHT - SCREEN_WIDTH;
 
-  footer_layer = layer_create(GRect(0, -100, SCREEN_WIDTH, footer_height));
+  footer_layer = layer_create(GRect(0, 00, SCREEN_WIDTH, footer_height));
   layer_add_child(root_layer, footer_layer);
 
   // Day
